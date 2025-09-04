@@ -9,7 +9,7 @@ class Caneta {
 
     public void retirar(int qtd) {
         if (qtd > 0 && qtd <= quantidade) {
-            quantidade -= qtd;
+            quantidade = quantidade- qtd;
         } else {
             System.out.println("Não é possível retirar " + qtd + " unidades. Estoque insuficiente!");
         }
